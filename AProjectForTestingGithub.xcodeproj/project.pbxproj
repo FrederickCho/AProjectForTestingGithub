@@ -21,6 +21,7 @@
 		E090CF5C168D29B400DECDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E090CF3D168D29B400DECDBF /* Foundation.framework */; };
 		E090CF64168D29B400DECDBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E090CF62168D29B400DECDBF /* InfoPlist.strings */; };
 		E090CF67168D29B400DECDBF /* AProjectForTestingGithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E090CF66168D29B400DECDBF /* AProjectForTestingGithubTests.m */; };
+		E090CF73168D35EA00DECDBF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E090CF72168D35EA00DECDBF /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E090CF63168D29B400DECDBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E090CF65168D29B400DECDBF /* AProjectForTestingGithubTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AProjectForTestingGithubTests.h; sourceTree = "<group>"; };
 		E090CF66168D29B400DECDBF /* AProjectForTestingGithubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AProjectForTestingGithubTests.m; sourceTree = "<group>"; };
+		E090CF71168D35EA00DECDBF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
+		E090CF72168D35EA00DECDBF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		E090CF41168D29B400DECDBF /* AProjectForTestingGithub */ = {
 			isa = PBXGroup;
 			children = (
+				E090CF70168D35CA00DECDBF /* Classes */,
 				E090CF4A168D29B400DECDBF /* AppDelegate.h */,
 				E090CF4B168D29B400DECDBF /* AppDelegate.m */,
 				E090CF42168D29B400DECDBF /* Supporting Files */,
@@ -150,6 +154,15 @@
 				E090CF62168D29B400DECDBF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E090CF70168D35CA00DECDBF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E090CF71168D35EA00DECDBF /* RootViewController.h */,
+				E090CF72168D35EA00DECDBF /* RootViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			files = (
 				E090CF48168D29B400DECDBF /* main.m in Sources */,
 				E090CF4C168D29B400DECDBF /* AppDelegate.m in Sources */,
+				E090CF73168D35EA00DECDBF /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
